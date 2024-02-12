@@ -7,7 +7,7 @@ import { zoom } from './partials/image-zoom';
 class Product extends BasePage {
     onReady() {
 
-   this.catblock()
+        this.catblock()
      
         app.watchElements({
             totalPrice: '.total-price',
@@ -340,11 +340,6 @@ class Product extends BasePage {
             }
 
 
-
-
-
-
-
             const prepearwayDisplayElement = document.getElementById('prepearwayDisplay');
 
             if (!prepearwayDisplayElement) {
@@ -371,16 +366,7 @@ class Product extends BasePage {
 
 
            
-       
-
-
-
-    
-
-
-
-
-            
+ 
 
             
 
@@ -398,15 +384,6 @@ class Product extends BasePage {
             // Access the section and wrapper elements
          
       
-
-
-
-
-
-
-
-          
-
 
 
 

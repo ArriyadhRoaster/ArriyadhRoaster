@@ -323,7 +323,7 @@ salla.onReady(() => (new App).loadTheApp());
 
 // Ezdan Script 
 
-// JavaScript for Responsive Menu
+
 
 const menu = document.querySelector(".ezdan-main-nav");
 const bar = document.querySelector("#bar");
@@ -347,7 +347,7 @@ window.addEventListener("scroll", function () {
 
 
 // Home Hero Slider JavaScript
-
+/*
 $(".ezdan-hero-slider").owlCarousel({
   loop: true,
   margin: 10,
@@ -405,4 +405,4 @@ $(".ezdan-coffee-slider").owlCarousel({
 }
 });
 
-
+*/
