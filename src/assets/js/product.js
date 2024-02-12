@@ -7,7 +7,7 @@ import { zoom } from './partials/image-zoom';
 class Product extends BasePage {
     onReady() {
 
-        this.catblock()
+       this.catblock()
      
         app.watchElements({
             totalPrice: '.total-price',
