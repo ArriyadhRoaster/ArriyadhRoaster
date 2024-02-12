@@ -1,10 +1,10 @@
 {
     "name": {
-        "ar": "ezdans",
-        "en": "ezdans"
+        "ar": "ArriyadhRoaster",
+        "en": "ArriyadhRoaster"
     },
     "repository": "https://github.com/ArriyadhRoaster/ArriyadhRoaster",
-    "author_email": "ammaralawadat1992@gmail.com",
+    "author_email": "abdulrahman@arriyadhroaster.com",
     "features": [
         "mega-menu",
         "fonts",
