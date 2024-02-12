@@ -1763,7 +1763,7 @@
             "fields": [
                 {
                     "id": "fullbannarcollection",
-                    "key": "bc9e3b92-e80c-490c-b00a-2be38dcc1813",
+                    "key": "b200130f-7b21-4130-beb1-eb5635e7a1f5",
                     "type": "collection",
                     "format": "collection",
                     "label": "fullbannarCollection",
@@ -1774,7 +1774,7 @@
                     "fields": [
                         {
                             "id": "fullbannarTitle",
-                            "key": "e4e06f9d-a26a-4100-ab98-96c5fcd3985b",
+                            "key": "f375132d-b4fc-4a93-8ed4-536c284db37e",
                             "type": "string",
                             "format": "text",
                             "label": "String",
@@ -1790,7 +1790,7 @@
                         },
                         {
                             "id": "fullbannardescription",
-                            "key": "f459ce42-9b47-439f-b702-ec9cab46c418",
+                            "key": "a83d89ba-6cb0-48dc-9b72-c278268c6084",
                             "type": "string",
                             "format": "text",
                             "label": "String 1",
@@ -1806,11 +1806,11 @@
                         },
                         {
                             "id": "fullbannarimage",
-                            "key": "a2932330-da8f-48bf-a94a-1c394b91d93e",
+                            "key": "13f3d096-a7e3-425c-b989-f9033d815c7a",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
-                            "description": null,
+                            "description": "صورة بحجم 1920 * 1617 px",
                             "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
