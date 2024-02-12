@@ -344,3 +344,65 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 100);
 });
 
+
+
+// Home Hero Slider JavaScript
+
+$(".ezdan-hero-slider").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  rtl: true,
+  items: 1,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  navText: [
+    '<i class="fa-solid fa-chevron-right"></i>',
+    '<i class="fa-solid fa-chevron-left"></i>',
+  ],
+});
+
+// Product Hero Slider JavaScript
+
+$(".ezdan-product-hero-slider").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  rtl: true,
+  items: 1,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  navText: [
+    '<i class="fa-solid fa-chevron-right"></i>',
+    '<i class="fa-solid fa-chevron-left"></i>',
+  ],
+});
+
+// Coffee Slider JavaScript
+
+$(".ezdan-coffee-slider").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: false,
+  rtl: true,
+  items: 5,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  responsive:{
+    0:{
+        items:2,
+    },
+    600:{
+        items:3,
+    },
+    1000:{
+        items:4,
+    },
+    1200:{
+        items:5,
+    }
+}
+});
+
+

@@ -15273,7 +15273,7 @@ border: 1px solid rgba(55,37,25,0.2902) !important;
 }
 .w-56 {
 
-  background: #371a08 !important;
+  background: #616161 !important;
 }
 .w-56:hover {
   background: #4a2c10 !important;
@@ -18865,7 +18865,7 @@ input[type=radio].sr-only:checked ~ div.s-map-my-location-button {
   gap: 1.5rem}
 .s-menu-submenu-unordered-list{margin:2rem;width:14rem;flex-shrink:0;
 
-  background: #371a08}
+  background: #616161}
 .s-menu-submenu-unordered-list:hover {
   background: #4a2c10; /* A lighter shade for the hover effect */
 }
@@ -18874,7 +18874,7 @@ input[type=radio].sr-only:checked ~ div.s-map-my-location-button {
 .s-menu-submenu-with-product{left:0px;display:flex;width:100%}
 .s-menu-submenu-without-product{width:14rem;
 
-  background: #371a08}
+  background: #616161}
 .s-menu-submenu-without-product:hover {
   background: #4a2c10; /* A lighter shade for the hover effect */
 }
