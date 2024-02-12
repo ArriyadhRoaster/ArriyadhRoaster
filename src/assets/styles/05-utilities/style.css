@@ -1491,3 +1491,24 @@ border: 1px solid #3725194a !important;
 {
   color: #371a08 !important;
 }
+
+
+.sub-menu li {
+
+  color: #352110 !important;
+}
+
+
+.sub-menu a {
+
+  color: #352110 !important;
+}
+
+.w-56 {
+
+  background: #371a08 !important;
+}
+
+.w-56:hover {
+  background: #4a2c10 !important; /* A lighter shade for the hover effect */
+}

@@ -28,7 +28,8 @@
     }
 
     > .has-children:hover > a{
-      color: var(--color-primary);
+
+      color: #000;
     }
 
     .has-children{
@@ -60,6 +61,7 @@
       @apply z-20 transition opacity-0 invisible absolute bg-white -translate-y-3 shadow-default rounded-b-md border-t border-gray-300/30;
 
       .sub-menu {
+      
         top: -1px;
         right: 100%;
 
