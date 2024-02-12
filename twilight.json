@@ -2227,7 +2227,7 @@
             "fields": [
                 {
                     "id": "sectiontestonsectiospages",
-                    "key": "02d3238e-c692-43ca-b4fc-94f108a84de8",
+                    "key": "a1db0a82-66d1-4dbe-9bf9-fb53ecd227ec",
                     "type": "collection",
                     "format": "collection",
                     "label": "SectionTestOnSectiosPages",
@@ -2238,11 +2238,11 @@
                     "fields": [
                         {
                             "id": "stringsectiontestonsectiospages",
-                            "key": "be2e3aae-ea49-44ef-826d-9d78011e2557",
+                            "key": "9d0739af-5685-4758-9757-9201e4aee5a8",
                             "type": "string",
                             "format": "text",
                             "label": "StringSectionTestOnSectiosPages",
-                            "description": null,
+                            "description": "نص في نهاية الصفحة",
                             "labelHTML": null,
                             "placeholder": "Placeholder text ..",
                             "icon": "sicon-format-text-alt",
