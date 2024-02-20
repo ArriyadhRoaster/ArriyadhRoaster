@@ -2,14 +2,14 @@
 
 
 <section id="Coffee-info">
-    {% for Bannergreencollectionee in component.bannergreencollection %}
-    <div class="ezdan-coffee-info-wrapper green-arrived position-relative"  style="background-image:url('{{Bannergreencollectionee.bannergreenimage}}') ">
+    {% for bannergreen_collectionee in component.bannergreencollection %}
+    <div class="ezdan-coffee-info-wrapper green-arrived position-relative"  style="background-image:url('{{bannergreen_collectionee.bannergreenimage}}') ">
     
       <div class="container">
         <div class="ezdan-coffee-content">
-          <h2>{{Bannergreencollectionee.bannergreenstring}}</h2>
+          <h2>{{bannergreen_collectionee.bannergreenstring}}</h2>
           
-          <h3> {{Bannergreencollectionee.bannergreenstring2}}</h3>
+          <h3> {{bannergreen_collectionee.bannergreenstring2}}</h3>
         </div>
       </div>
     </div>

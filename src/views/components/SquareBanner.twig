@@ -4,25 +4,25 @@
         <div class="ezdan-contact-wrapper">
           <div class="container">
 
-            {% for Bannersqu in component.squarebannercollection %}
+            {% for banner_squ in component.squarebannercollection %}
 
             <div class="ezdan-contact-img">
-              <img src="{{Bannersqu.SquareBannerimage}}" alt="contact-img" />
+              <img src="{{banner_squ.SquareBannerimage}}" alt="contact-img" />
             </div>
             <div class="ezdan-coffee-shop-wrapper">
               <div class="ezdan-coffee-shop-arrow">
                 <img
-                  src="{{Bannersqu.SquareBannerimage_1}}"
+                  src="{{banner_squ.SquareBannerimage_1}}"
                   alt="arrow-down-icon"
                 />
               </div>
               <div class="container">
                 <div class="ezdan-coffee-shop-content">
                   <h3>
-                    {{Bannersqu.SquareBannerstring}}
+                    {{banner_squ.SquareBannerstring}}
                 </h3>
                   <div class="ezdan-shop-btn pt-5 mt-3">
-                    <a href="{{Bannersqu.SquareBannerurl}}">{{Bannersqu.SquareBannerButton}}</a>
+                    <a href="{{banner_squ.SquareBannerurl}}">{{banner_squ.SquareBannerButton}}</a>
                   </div>
                 </div>
               </div>
