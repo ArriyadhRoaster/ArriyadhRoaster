@@ -127,14 +127,14 @@
 
               <div class="menu-items">
                   <salla-cart-summary class="ml-4 rtl:ml-[unset] rtl:mr-4" style="color: white;">
-                      <i slot="icon" style="color: aliceblue;" class="fa-solid fa-cart-shopping"></i>
+                      <i slot="icon" style="color: aliceblue;" class="sicon-cart"></i>
                   </salla-cart-summary>
           
                   {% if user.type == 'user' %}
                       <salla-user-menu avatar-only show-header></salla-user-menu>
                   {% else %}
                       <button class="header-btn" onclick="salla.event.dispatch('login::open')">
-                          <i style="color: white;" class="fa-regular fa-user"></i>
+                          <i style="color: white;" class="fa fa-user"></i>
                       </button>
                   {% endif %}
               </div>
@@ -177,7 +177,7 @@
         
           <div class="menu-container">
             <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" style="font-family: DiodrumArabic !important;" aria-label="Open-menu">
-                <i class="fa-solid fa-bars text-primary text-2xl" style="color: white !important;"></i>
+                <i class="fa fa-bars text-primary text-2xl" style="color: white !important;"></i>
             </a>
             <button style="color: rgb(255, 255, 255);" onclick="salla.event.dispatch('search::open')" class="search-btn1">
                 <span class="fa-solid fa-magnifying-glass"></span>
@@ -258,14 +258,14 @@
 
               <div class="menu-items">
                   <salla-cart-summary class="ml-4 rtl:ml-[unset] rtl:mr-4" style="color: white;">
-                      <i slot="icon" class="fa-solid fa-cart-shopping"></i>
+                      <i slot="icon" class="sicon-cart"></i> 
                   </salla-cart-summary>
           
                   {% if user.type == 'user' %}
                       <salla-user-menu avatar-only show-header></salla-user-menu>
                   {% else %}
                       <button class="header-btn" onclick="salla.event.dispatch('login::open')">
-                          <i style="color: white;" class="fa-regular fa-user"></i>
+                          <i style="color: white;" class="fa fa-user"></i>
                       </button>
                   {% endif %}
               </div>
@@ -306,7 +306,7 @@
         
           <div class="menu-container " style="color: #352110 !important;">
             <a  class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" style="color: #352110 !important;" aria-label="Open-menu">
-                <i class="fa-solid fa-bars text-primary text-2xl" style="color: #352110 !important;"></i>
+                <i class="fa fa-bars text-primary text-2xl" style="color: #352110 !important;"></i>
             </a>
             <button style="color: #352110;" onclick="salla.event.dispatch('search::open')" class="search-btn1">
                 <span class="fa-solid fa-magnifying-glass"></span>
@@ -388,14 +388,14 @@
 
               <div class="menu-items">
                   <salla-cart-summary class="ml-4 rtl:ml-[unset] rtl:mr-4" style="color: 352110;">
-                      <i slot="icon" style="color: #352110 !important;" class="fa-solid fa-cart-shopping"></i>
+                      <i slot="icon" style="color: #352110 !important;" class="sicon-cart"></i>
                   </salla-cart-summary>
           
                   {% if user.type == 'user' %}
                       <salla-user-menu avatar-only show-header></salla-user-menu>
                   {% else %}
                       <button class="header-btn" onclick="salla.event.dispatch('login::open')">
-                          <i style="color: 352110;" class="fa-regular fa-user"></i>
+                          <i style="color: 352110;" class="fa fa-user"></i>
                       </button>
                   {% endif %}
               </div>
