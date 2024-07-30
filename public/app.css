@@ -176,7 +176,7 @@ body.mm-ocd-opened{overflow-y:hidden;overscroll-behavior:none}
     --bs-danger-border-subtle: #f1aeb5;
     --bs-light-border-subtle: #e9ecef;
     --bs-dark-border-subtle: #adb5bd;
-    --bs-white-rgb: 255, 255, 255;
+    --bs-white-rgb: 53, 33, 16 ;
     --bs-black-rgb: 0, 0, 0;
     --bs-font-sans-serif: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -16821,7 +16821,7 @@ textarea.s-form-control.is-invalid {
 }
 @media (min-width: 1400px) {
   .s-advertisement-content {
-    max-width: 1650px;
+    max-width: 1680px;
   }
 }
 .s-advertisement-content {
@@ -23397,7 +23397,7 @@ h2.title {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1650px !important;
+    max-width: 1680px !important;
   }
 }
 /* Base Style CSS End */
@@ -37054,7 +37054,7 @@ model-viewer[style*=width]:before{display:none}
 }
 @media (min-width: 1400px) {
   .s-comments-product .s-comments-container {
-    max-width: 1650px;
+    max-width: 1680px;
   }
 }
 .s-comments-product .s-comments-container {
