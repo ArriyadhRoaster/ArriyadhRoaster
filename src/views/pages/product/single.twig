@@ -87,6 +87,7 @@
     {#   <nav class="breadcrumbs w-full py-5">
             {% component 'header.breadcrumbs' %}
         </nav>#} 
+    
         <div class="flex flex-col items-start md:flex-row" id="product-{{ product.id }}">
             <div class="sidebar md:sticky top-24 w-full md:!w-2/4 rtl:ml-8 ltr:mr-8 pb-8 md:pb-16 overflow-hidden shrink-0">
                 {% set has_many_images = product.images|length > 1 %}
@@ -178,7 +179,7 @@
                 </salla-slider>
             </div>
 
-       
+      
 
             <div class="main-content md:sticky top-24 w-full md:w-2/4 md:pb-16">
 
@@ -395,13 +396,14 @@
 
                                           </span>
                                         </div>
+                                   
                                         <div class="ezdan-atoc-btn" >
                                          
                                           <salla-add-product-button
                                           quick-buy
                                           support-sticky-bar
                                           amount="{{ product.base_currency_price }}"
-                                          class="ezdan-atoc-btn "
+                                          class="ezdan-atoc-btn"
                                           product-status="{{ product.status }}"
                                           product-type="{{ product.type }}"
                                           product-id="{{ product.id }}"
