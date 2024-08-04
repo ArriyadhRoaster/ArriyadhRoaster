@@ -177,7 +177,16 @@ svg {
 }
 
 
+.s-user-menu-toggler.opened .s-user-menu-dropdown {
+    background-color: #352110 !important;
+    opacity: 1;
+    visibility: visible;
+}
 
+
+.s-user-menu-trigger {
+    background-color: rgb(255 255 255 / 0%) !important;
+}
 
 
 
